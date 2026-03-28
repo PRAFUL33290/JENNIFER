@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Illumine tes sens – Massages & Bien-être</title>
+  <meta name="description" content="Illumine tes sens – Un espace de soins dédié à votre bien-être. Massages relaxants, soins énergétiques, rituels sensoriels. Réservez votre moment de sérénité." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- AOS Animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" id="nav">
+    <div class="nav__container">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-icon">✦</span>
+        Illumine tes sens
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#home" class="nav__link">Accueil</a></li>
+        <li><a href="#services" class="nav__link">Soins</a></li>
+        <li><a href="#about" class="nav__link">À propos</a></li>
+        <li><a href="#booking" class="nav__link">Réserver</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content" data-aos="fade-up" data-aos-duration="1200">
+      <p class="hero__subtitle">Bienvenue dans votre sanctuaire</p>
+      <h1 class="hero__title">Illumine&nbsp;tes&nbsp;sens</h1>
+      <p class="hero__tagline">Là où chaque toucher devient une invitation à revenir à soi.</p>
+      <a href="#booking" class="btn btn--primary">Réserver votre moment</a>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Descendre</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ========== INTRO STRIP ========== -->
+  <section class="intro">
+    <div class="container">
+      <div class="intro__pillars">
+        <div class="intro__pillar" data-aos="fade-up" data-aos-delay="0">
+          <span class="intro__icon">🌿</span>
+          <h3>Soin holistique</h3>
+          <p>Corps, esprit et âme en harmonie.</p>
+        </div>
+        <div class="intro__pillar" data-aos="fade-up" data-aos-delay="150">
+          <span class="intro__icon">✨</span>
+          <h3>Ingrédients naturels</h3>
+          <p>Huiles essentielles, argiles et plantes sauvages.</p>
+        </div>
+        <div class="intro__pillar" data-aos="fade-up" data-aos-delay="300">
+          <span class="intro__icon">🕊️</span>
+          <h3>Présence totale</h3>
+          <p>Un espace sans jugement, entièrement dédié à vous.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section__header" data-aos="fade-up">
+        <p class="section__label">Nos soins</p>
+        <h2 class="section__title">Des rituels pour chaque besoin</h2>
+        <p class="section__desc">Chaque soin est une invitation au voyage intérieur, conçu pour apaiser, restaurer et éveiller vos sens les plus profonds.</p>
+      </div>
+
+      <div class="services__grid">
+
+        <!-- Service 1 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-card__img service-card__img--1">
+            <div class="service-card__badge">60 – 90 min</div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Massage Signature</h3>
+            <p class="service-card__text">Une fusion d'effleurages suédois et de pressions profondes pour libérer les tensions accumulées. Un voyage sensoriel complet.</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">À partir de 75 €</span>
+              <a href="#booking" class="btn btn--ghost btn--sm">Réserver</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card__img service-card__img--2">
+            <div class="service-card__badge">75 min</div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Soin Énergétique Reiki</h3>
+            <p class="service-card__text">Rééquilibrage des chakras par le flux d'énergie universelle. Une expérience subtile pour retrouver l'alignement corps-esprit.</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">À partir de 85 €</span>
+              <a href="#booking" class="btn btn--ghost btn--sm">Réserver</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card__img service-card__img--3">
+            <div class="service-card__badge">120 min</div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Rituel Lumière Dorée</h3>
+            <p class="service-card__text">L'ultime indulgence : gommage au sel de mer, enveloppement à l'argile dorée, massage aux huiles précieuses. Un rituel de renaissance.</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">À partir de 130 €</span>
+              <a href="#booking" class="btn btn--ghost btn--sm">Réserver</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-card__img service-card__img--4">
+            <div class="service-card__badge">45 min</div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Massage Tête & Cuir Chevelu</h3>
+            <p class="service-card__text">Libérez les tensions crâniennes et cervicales. Un rituel apaisant inspiré du massage indien à base d'huile de coco chaude.</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">À partir de 55 €</span>
+              <a href="#booking" class="btn btn--ghost btn--sm">Réserver</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card__img service-card__img--5">
+            <div class="service-card__badge">60 min</div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Soin du Visage Botanik</h3>
+            <p class="service-card__text">Purification en douceur avec des actifs naturels : aloe vera, rose de Damas, huile d'argan. Votre peau retrouve son éclat naturel.</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">À partir de 70 €</span>
+              <a href="#booking" class="btn btn--ghost btn--sm">Réserver</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card__img service-card__img--6">
+            <div class="service-card__badge">90 min</div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Rituel Duo Sérénité</h3>
+            <p class="service-card__text">Partagez un moment d'exception à deux. Massage synchronisé en salle privée avec champagne, bougies et ambiance apaisante.</p>
+            <div class="service-card__footer">
+              <span class="service-card__price">À partir de 180 €</span>
+              <a href="#booking" class="btn btn--ghost btn--sm">Réserver</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== QUOTE BANNER ========== -->
+  <section class="quote-banner">
+    <div class="container">
+      <blockquote data-aos="fade-up">
+        <p>« Le silence du corps est le début de l'éveil de l'âme. »</p>
+        <cite>– Philosophie d'Illumine tes sens</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__image-col" data-aos="fade-right">
+          <div class="about__img-wrapper">
+            <div class="about__img about__img--main"></div>
+            <div class="about__img about__img--accent"></div>
+          </div>
+        </div>
+        <div class="about__text-col" data-aos="fade-left">
+          <p class="section__label">Notre histoire</p>
+          <h2 class="section__title">Un espace né de l'amour du soin</h2>
+          <p>Illumine tes sens est né d'un désir profond : créer un refuge où chaque personne peut poser le poids du monde et retrouver sa propre lumière intérieure.</p>
+          <p>Fondé par Jennifer, thérapeute certifiée avec plus de dix ans d'expérience dans les soins holistiques, ce lieu est une invitation à ralentir, ressentir et se reconnecter à l'essentiel.</p>
+          <div class="about__values">
+            <div class="about__value">
+              <span class="about__value-icon">🌸</span>
+              <div>
+                <h4>Authenticité</h4>
+                <p>Des soins réels, sans artifice, pensés pour votre bien-être profond.</p>
+              </div>
+            </div>
+            <div class="about__value">
+              <span class="about__value-icon">🌿</span>
+              <div>
+                <h4>Nature & éthique</h4>
+                <p>Produits naturels, locaux et respectueux de l'environnement.</p>
+              </div>
+            </div>
+            <div class="about__value">
+              <span class="about__value-icon">💛</span>
+              <div>
+                <h4>Connexion humaine</h4>
+                <p>Chaque séance débute par une écoute attentive de vos besoins.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#booking" class="btn btn--primary">Rencontrons-nous</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section__header" data-aos="fade-up">
+        <p class="section__label">Témoignages</p>
+        <h2 class="section__title">Ce qu'elles en disent</h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">« J'ai rarement ressenti une telle paix intérieure. Jennifer a un don pour sentir où le corps a besoin d'attention. Je repars toujours transformée. »</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--1"></div>
+            <div>
+              <strong>Sophie M.</strong>
+              <span>Rituel Lumière Dorée</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">« Un moment hors du temps. Le cadre est magnifique, les huiles sentent divinement bon, et les mains de Jennifer sont magiques. Un vrai luxe accessible. »</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--2"></div>
+            <div>
+              <strong>Camille R.</strong>
+              <span>Massage Signature</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">« Le soin Reiki a été une révélation. Je suis arrivée épuisée et je suis repartie en paix avec moi-même. Je recommande à quiconque cherche à se recentrer. »</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--3"></div>
+            <div>
+              <strong>Laure D.</strong>
+              <span>Soin Énergétique Reiki</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BOOKING ========== -->
+  <section class="booking section" id="booking">
+    <div class="container">
+      <div class="section__header" data-aos="fade-up">
+        <p class="section__label">Réservation</p>
+        <h2 class="section__title">Offrez-vous un moment pour vous</h2>
+        <p class="section__desc">Remplissez le formulaire et nous vous confirmerons votre rendez-vous par email dans les 24 heures.</p>
+      </div>
+
+      <div class="booking__card" data-aos="fade-up">
+        <form class="booking__form" id="bookingForm" novalidate>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="bookFirstname">Prénom <span>*</span></label>
+              <input type="text" id="bookFirstname" name="firstname" placeholder="Marie" required />
+            </div>
+            <div class="form__group">
+              <label for="bookLastname">Nom <span>*</span></label>
+              <input type="text" id="bookLastname" name="lastname" placeholder="Dupont" required />
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="bookEmail">Email <span>*</span></label>
+              <input type="email" id="bookEmail" name="email" placeholder="marie@exemple.fr" required />
+            </div>
+            <div class="form__group">
+              <label for="bookPhone">Téléphone</label>
+              <input type="tel" id="bookPhone" name="phone" placeholder="+33 6 00 00 00 00" />
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="bookService">Soin souhaité <span>*</span></label>
+              <select id="bookService" name="service" required>
+                <option value="" disabled selected>Choisir un soin…</option>
+                <option>Massage Signature (60 min) – 75 €</option>
+                <option>Massage Signature (90 min) – 100 €</option>
+                <option>Soin Énergétique Reiki – 85 €</option>
+                <option>Rituel Lumière Dorée – 130 €</option>
+                <option>Massage Tête & Cuir Chevelu – 55 €</option>
+                <option>Soin du Visage Botanik – 70 €</option>
+                <option>Rituel Duo Sérénité – 180 €</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="bookDate">Date souhaitée <span>*</span></label>
+              <input type="date" id="bookDate" name="date" required />
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="bookTime">Heure préférée <span>*</span></label>
+              <select id="bookTime" name="time" required>
+                <option value="" disabled selected>Choisir un créneau…</option>
+                <option>09:00</option>
+                <option>10:00</option>
+                <option>11:00</option>
+                <option>13:00</option>
+                <option>14:00</option>
+                <option>15:00</option>
+                <option>16:00</option>
+                <option>17:00</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="bookPeople">Nombre de personnes</label>
+              <select id="bookPeople" name="people">
+                <option value="1">1 personne</option>
+                <option value="2">2 personnes (duo)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form__group form__group--full">
+            <label for="bookNotes">Notes particulières</label>
+            <textarea id="bookNotes" name="notes" rows="3" placeholder="Allergies, préférences, intentions de soin…"></textarea>
+          </div>
+          <div class="form__submit">
+            <button type="submit" class="btn btn--primary btn--lg">Confirmer ma réservation ✦</button>
+          </div>
+        </form>
+        <div class="booking__success" id="bookingSuccess" style="display:none;">
+          <div class="booking__success-icon">✦</div>
+          <h3>Votre demande a bien été reçue</h3>
+          <p>Nous vous confirmerons votre rendez-vous par email dans les 24 heures.<br />À très bientôt chez Illumine tes sens.</p>
+          <a href="#services" class="btn btn--ghost">Découvrir nos soins</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section__header" data-aos="fade-up">
+        <p class="section__label">Contact</p>
+        <h2 class="section__title">Restons en contact</h2>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info" data-aos="fade-right">
+          <div class="contact__info-block">
+            <span class="contact__info-icon">📍</span>
+            <div>
+              <h4>Adresse</h4>
+              <p>12 Rue des Sens Apaisés<br />75006 Paris, France</p>
+            </div>
+          </div>
+          <div class="contact__info-block">
+            <span class="contact__info-icon">📞</span>
+            <div>
+              <h4>Téléphone</h4>
+              <p><a href="tel:+33600000000">+33 6 00 00 00 00</a></p>
+            </div>
+          </div>
+          <div class="contact__info-block">
+            <span class="contact__info-icon">✉️</span>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:bonjour@illuminetesens.fr">bonjour@illuminetesens.fr</a></p>
+            </div>
+          </div>
+          <div class="contact__info-block">
+            <span class="contact__info-icon">🕰️</span>
+            <div>
+              <h4>Horaires</h4>
+              <p>Lundi – Vendredi : 9h – 19h<br />Samedi : 10h – 18h<br />Dimanche : sur réservation</p>
+            </div>
+          </div>
+          <form class="contact__form" id="contactForm" novalidate data-aos="fade-up">
+            <div class="form__group">
+              <label for="contactName">Votre nom</label>
+              <input type="text" id="contactName" name="name" placeholder="Marie Dupont" required />
+            </div>
+            <div class="form__group">
+              <label for="contactEmail">Votre email</label>
+              <input type="email" id="contactEmail" name="email" placeholder="marie@exemple.fr" required />
+            </div>
+            <div class="form__group">
+              <label for="contactMessage">Message</label>
+              <textarea id="contactMessage" name="message" rows="4" placeholder="Votre question…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Envoyer le message</button>
+          </form>
+          <div class="contact__form-success" id="contactSuccess" style="display:none;">
+            <p>✦ Message envoyé avec succès. Nous vous répondrons très bientôt.</p>
+          </div>
+        </div>
+        <div class="contact__map" data-aos="fade-left">
+          <div class="contact__map-placeholder">
+            <div class="contact__map-inner">
+              <iframe
+                title="Carte Illumine tes sens"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.0899655624107!2d2.3312099156744635!3d48.852169879284265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2sSaint-Germain-des-Pr%C3%A9s%2C%2075006%20Paris!5e0!3m2!1sfr!2sfr!4v1617000000000!5m2!1sfr!2sfr"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <div class="contact__map-overlay">
+              <div class="contact__map-pin">
+                <span>✦</span>
+                <p>Illumine tes sens<br /><small>12 Rue des Sens Apaisés, Paris</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <p class="footer__logo">✦ Illumine tes sens</p>
+          <p class="footer__tagline">Votre sanctuaire de bien-être à Paris.<br />Parce que vous le méritez.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Instagram" class="footer__social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="footer__social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#services">Nos soins</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#booking">Réservation</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>Nos soins</h4>
+          <ul>
+            <li><a href="#services">Massage Signature</a></li>
+            <li><a href="#services">Reiki Énergétique</a></li>
+            <li><a href="#services">Rituel Lumière Dorée</a></li>
+            <li><a href="#services">Soin Visage Botanik</a></li>
+            <li><a href="#services">Rituel Duo</a></li>
+          </ul>
+        </div>
+        <div class="footer__newsletter">
+          <h4>Restez inspirée</h4>
+          <p>Recevez nos conseils bien-être et offres exclusives.</p>
+          <form class="footer__newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Votre email" required />
+            <button type="submit" class="btn btn--primary btn--sm">S'inscrire</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Illumine tes sens. Tous droits réservés. — <a href="#">Mentions légales</a> — <a href="#">Politique de confidentialité</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Retour en haut">↑</button>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
